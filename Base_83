@@ -11,7 +11,7 @@ from pycoral.adapters import classify
 modelPath = 'https://github.com/gjsanchezz/TPU_21032023_83/blob/main/model_edgetpu_83.tflite'
 
 # The path to labels.txt that was downloaded with your model
-labelPath = 'https://github.com/gjsanchezz/TPU_21032023_83/blob/main/model_edgetpu_83.tflite'
+labelPath = 'https://github.com/gjsanchezz/TPU_21032023_83/blob/main/Labels_21032023_83.txt'
 
 # This function takes in a TFLite Interptere and Image, and returns classifications
 def classifyImage(interpreter, image):
